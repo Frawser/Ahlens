@@ -26,7 +26,7 @@ header .nav-bar .nav-logo {
 header .nav-bar .nav-logo a {
   color: red;
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 header .nav-bar .nav-box {
@@ -49,11 +49,11 @@ header .nav-categories {
   display: flex;
   justify-content: center;
   gap: 2.5rem;
-  padding: 1.25rem 0;
+  padding: 1rem 0;
 }
 header .nav-categories .nav-category {
   text-transform: uppercase;
-  letter-spacing: 0.05px;
+  letter-spacing: 0.25px;
   font-weight: 600;
   color: rgb(54, 53, 53);
 }
