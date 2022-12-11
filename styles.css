@@ -49,7 +49,7 @@ header .nav-categories {
   display: flex;
   justify-content: center;
   gap: 2.5rem;
-  padding: 1rem 0;
+  padding: 1.6rem 0;
 }
 header .nav-categories .nav-category {
   text-transform: uppercase;
