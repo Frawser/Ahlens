@@ -177,7 +177,7 @@ main {
 }
 
 .jul-wrapper {
-  margin: 40px;
+  margin: 30px;
 }
 .jul-wrapper .row-card {
   display: flex;
@@ -193,6 +193,6 @@ main {
   margin: 10px;
 }
 .jul-wrapper .jul-card a img {
-  width: 484px;
+  width: 486px;
   height: 242px;
 }/*# sourceMappingURL=styles.css.map */
