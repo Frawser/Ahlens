@@ -2,8 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     background-color: #5e1220;
-    color: #fff;
-    padding: 16px;
+    color: #fff; 
     left: 0;
     bottom: 0;
     width: 100%;
@@ -13,7 +12,9 @@
         font-size: .9rem;
         h1{
             font-size: .9rem;
+            margin: 15px;
         }
+       
         li{
             margin: 10px;
             }
