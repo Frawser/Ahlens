@@ -93,6 +93,20 @@ main {
   text-align: center;
 }
 
+.btn-wrapper1 {
+  max-width: 1024px;
+  margin: 38px 24px;
+}
+
+.btn-wrapper1 a {
+  border: 1px solid #d7d7d7;
+  padding: 0.55em 2.2em;
+}
+
+.btn-wrapper1 a span {
+  font-size: 14px;
+}
+
 .wrapper1 {
   display: flex;
   flex-direction: row;
