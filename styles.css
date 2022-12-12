@@ -157,7 +157,6 @@ main {
   background-color: #5e1220;
   color: #fff;
   padding: 16px;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -177,6 +176,11 @@ main {
   display: flex;
   justify-content: space-between;
   font-size: 3rem;
+}
+
+.second-footer {
+  display: flex;
+  justify-content: center;
 }
 
 .wrapper1 {
