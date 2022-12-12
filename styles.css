@@ -68,7 +68,7 @@ header .nav-search .nav-searchbar {
   position: relative;
   display: grid;
   place-items: center;
-  width: 50%;
+  width: 700px;
 }
 header .nav-search .nav-searchbar input {
   width: 100%;
@@ -84,6 +84,7 @@ header .nav-search .nav-searchbar i {
   position: absolute;
   display: grid;
   place-items: center;
+  cursor: pointer;
   font-size: 1.35rem;
   height: 36px;
   width: 36px;
