@@ -12,5 +12,16 @@
         margin: 20px;
         padding: 16px;
         font-size: .9rem;
+        h1{
+            font-size: .9rem;
+        }
+        li{
+            margin: 10px;
+            }
+    .sns-icons{
+        display: flex;
+        justify-content: space-between;
+        font-size: 3rem;
     }
+        }
 }

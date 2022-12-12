@@ -126,4 +126,15 @@ input {
   margin: 20px;
   padding: 16px;
   font-size: 0.9rem;
+}
+.footer section h1 {
+  font-size: 0.9rem;
+}
+.footer section li {
+  margin: 10px;
+}
+.footer section .sns-icons {
+  display: flex;
+  justify-content: space-between;
+  font-size: 3rem;
 }/*# sourceMappingURL=styles.css.map */
