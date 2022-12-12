@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700&display=Lato");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+input {
+    font-family: inherit;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.wrapper1{//wrapper som fungerar till Julluckorna och kanske resten
+    display: flex;
+    flex-direction: row;
+    row-gap: 24px;
+    column-gap: 24px;
+    justify-content: center;
+    max-width: 1024px;
+    position: relative;
+    text-align: center;
+}
+//Button under julluckor START, kan användas globalt kanske
+.btn-wrapper1{
+    max-width: 1024px;
+    margin: 38px 24px;
+}
+.btn-wrapper1 a{
+    border: 1px solid #d7d7d7;
+    padding: 0.55em 2.2em;  
+}
+.btn-wrapper1 a span{
+    font-size: 14px;
+}
+//Button under julluckor END
