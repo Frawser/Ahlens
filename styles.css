@@ -6,7 +6,6 @@ header .nav-sales {
   display: grid;
   place-items: center;
   font-size: 0.9rem;
-  font-weight: 600;
 }
 header .nav-bar {
   display: flex;
@@ -14,19 +13,19 @@ header .nav-bar {
   align-items: center;
   margin: auto;
   max-width: 1950px;
-  padding: 1.75rem 1rem 1rem 1rem;
+  padding: 2rem 1rem 1rem 1rem;
 }
 header .nav-bar .nav-logo {
   flex: 1;
   text-align: center;
-  letter-spacing: 1.25px;
+  letter-spacing: 1.5px;
 }
 header .nav-bar .nav-logo a {
   color: #df1b12;
   text-decoration: none;
-  font-size: 2.25rem;
+  font-size: 2.22rem;
   font-weight: 600;
-  margin-left: 3vw;
+  margin-left: 3.75vw;
 }
 header .nav-bar .nav-box {
   display: flex;
@@ -36,18 +35,19 @@ header .nav-bar .nav-list .nav-items {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-weight: 500;
 }
 header .nav-bar .nav-list .nav-items i {
   font-size: 1.5rem;
 }
 header .nav-bar .nav-list .nav-items a {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+  font-family: "Apercu", sans-serif;
 }
 header .nav-categories {
   display: flex;
   justify-content: center;
-  gap: 2.25rem;
+  gap: 2.15rem;
   padding: 1.6rem 0;
 }
 header .nav-categories .nav-category {
@@ -91,6 +91,10 @@ header .nav-search .nav-searchbar i {
   right: 5px;
 }
 
+@font-face {
+  font-family: "Apercu";
+  src: url("../fonts/ApercuRegular.otf");
+}
 * {
   padding: 0;
   margin: 0;
