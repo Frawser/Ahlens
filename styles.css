@@ -41,7 +41,7 @@ header .nav-bar .nav-list .nav-items i {
   font-size: 1.5rem;
 }
 header .nav-bar .nav-list .nav-items a {
-  font-size: 0.88rem;
+  font-size: 0.8rem;
 }
 header .nav-categories {
   display: flex;
@@ -66,7 +66,7 @@ header .nav-search .nav-searchbar {
   position: relative;
   display: grid;
   place-items: center;
-  width: 600px;
+  width: 700px;
 }
 header .nav-search .nav-searchbar input {
   width: 100%;
