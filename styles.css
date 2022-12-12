@@ -165,4 +165,34 @@ main {
 .wrapper1-1 a img, .wrapper1-2 a img {
   max-width: 484px;
   margin-top: 8px;
+}
+
+.har-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.har-wrapper .har-card a img {
+  width: 992px;
+  height: 351px;
+}
+
+.jul-wrapper {
+  margin: 40px;
+}
+.jul-wrapper .row-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.jul-wrapper .jul-card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  margin: 10px;
+}
+.jul-wrapper .jul-card a img {
+  width: 484px;
+  height: 242px;
 }/*# sourceMappingURL=styles.css.map */
