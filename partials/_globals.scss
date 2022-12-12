@@ -25,3 +25,34 @@ a {
 input {
     font-family: inherit;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.wrapper1{//wrapper som fungerar till Julluckorna och kanske resten
+    display: flex;
+    flex-direction: row;
+    row-gap: 24px;
+    column-gap: 24px;
+    justify-content: center;
+    max-width: 1024px;
+    position: relative;
+    text-align: center;
+}
+//Button under julluckor START, kan användas globalt kanske
+.btn-wrapper1{
+    max-width: 1024px;
+    margin: 38px 24px;
+}
+.btn-wrapper1 a{
+    border: 1px solid #d7d7d7;
+    padding: 0.55em 2.2em;  
+}
+.btn-wrapper1 a span{
+    font-size: 14px;
+}
+//Button under julluckor END

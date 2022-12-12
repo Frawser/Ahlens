@@ -1,0 +1,13 @@
+.wrapper1{ //finns i globals med, men om globals behöver ändras så finns den här med
+    display: flex;
+    flex-direction: row;
+    row-gap: 24px;
+    column-gap: 24px;
+    justify-content: center;
+    max-width: 1024px;
+    position: relative;
+    text-align: center;
+}
+.wrapper1-1 a img, .wrapper1-2 a img{
+    max-width: 484px;
+}
