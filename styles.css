@@ -72,10 +72,13 @@ header .nav-search .nav-searchbar {
 }
 header .nav-search .nav-searchbar input {
   width: 100%;
-  padding: 0.5rem 0.75rem;
+  padding: 0.55rem 1rem;
   border-radius: 100px;
   border: none;
   font-weight: 600;
+}
+header .nav-search .nav-searchbar input:focus {
+  outline: none;
 }
 header .nav-search .nav-searchbar i {
   position: absolute;
@@ -84,7 +87,7 @@ header .nav-search .nav-searchbar i {
   font-size: 1.35rem;
   height: 36px;
   width: 36px;
-  right: 0;
+  right: 5px;
   top: 0;
 }
 
