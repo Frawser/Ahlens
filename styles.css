@@ -152,29 +152,42 @@ main {
 
 .footer {
   display: flex;
-  justify-content: space-evenly;
   background-color: #5e1220;
   color: #fff;
   left: 0;
   bottom: 0;
   width: 100%;
+  padding: 0.7rem 0 2rem 0;
 }
 .footer section {
-  margin: 20px;
   padding: 16px;
   font-size: 0.9rem;
+  flex-grow: 1;
 }
 .footer section h1 {
   font-size: 0.9rem;
-  margin: 15px;
+  padding: 1rem 0;
+  margin-bottom: 15px;
 }
 .footer section li {
-  margin: 10px;
+  font-size: 0.7rem;
 }
 .footer section .sns-icons {
   display: flex;
   justify-content: space-between;
-  font-size: 3rem;
+}
+.footer section .sns-icons li {
+  font-size: 2.8rem;
+}
+.footer hr {
+  color: #EBEBEB;
+  border-top: 1px;
+}
+.footer .footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
 }
 
 .second-footer {
