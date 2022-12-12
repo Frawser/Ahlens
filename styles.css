@@ -109,4 +109,21 @@ a {
 
 input {
   font-family: inherit;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #5e1220;
+  color: #fff;
+  padding: 16px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.footer section {
+  margin: 20px;
+  padding: 16px;
+  font-size: 0.9rem;
 }/*# sourceMappingURL=styles.css.map */

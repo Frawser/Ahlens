@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #5e1220;
+    color: #fff;
+    padding: 16px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    section{
+        margin: 20px;
+        padding: 16px;
+        font-size: .9rem;
+    }
+}
