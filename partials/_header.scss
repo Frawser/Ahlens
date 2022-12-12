@@ -7,10 +7,6 @@ header {
         place-items: center;
         font-size: 0.9rem;
         font-weight: 600;
-
-        a {
-            margin-right: 60px;
-        }
     }
 
     .nav-bar {
@@ -29,6 +25,7 @@ header {
                 text-decoration: none;
                 font-size: 2rem;
                 font-weight: 600;
+                margin-left: 5vw;
             }
         }
 
