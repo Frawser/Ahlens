@@ -1,0 +1,92 @@
+.gillar-wrapper {
+    margin: 35px;
+    width: 1012px;
+    display: flex;
+    flex-direction: column;
+
+    p {
+        font-family: 'Times New Roman', Times, serif, Arial, sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        letter-spacing: 0.7px;
+        color: #000000;
+        margin-left: 10 px;
+        padding: 0;
+    }
+
+    .gillar-produkt-container {
+        display: block;
+        float: left;
+        div {
+            display: block;
+            float: left;
+            width: 148px;
+            margin: 0 10.3px;
+            &:hover {
+                filter: brightness(0.9);
+                background: white;
+                 
+            }
+            
+            a {
+                img {
+                    width: 148px;
+                    
+                }
+            }
+
+            p {
+                font-family: "Apercu", Arial, sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: 0.7px;
+                color: #000000;
+                margin: 0;
+                padding: 0;
+            }
+
+            span {
+                font-family: "Apercu", Arial, sans-serif;
+                font-size: 13px;
+                font-weight: 300;
+                letter-spacing: 0.7px;
+                color: #000000;
+                margin: 0;
+                padding: 0;
+            }
+
+            .new-price {
+                font-family: "Apercu", Arial, sans-serif;
+                font-size: 13px;
+                font-weight: 300;
+                letter-spacing: 0.7px;
+                color: #ff0000;
+                margin: 0;
+                padding: 0;
+            }
+
+            .old-price {
+                font-family: "Apercu", Arial, sans-serif;
+                font-size: 13px;
+                font-weight: 300;
+                letter-spacing: 0.7px;
+                color: #a1a1a1;
+                margin: 0;
+                padding: 0;
+                text-decoration: line-through;
+            }
+        }
+        
+    }
+}
+
+.img-container1 {
+    width: 992px;
+
+    img {
+        width: 992px;
+        
+    }
+}
+
+
