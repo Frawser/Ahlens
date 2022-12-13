@@ -294,7 +294,7 @@ main {
 }
 
 .toplista-wrapper {
-  max-width: 1024px;
+  max-width: 1000px;
   margin: auto;
   width: 100%;
 }
@@ -405,13 +405,14 @@ main {
   border-radius: unset;
   outline: none;
   transition: 0.2s ease-in-out;
+  cursor: pointer;
 }
 .toplista-wrapper .toplista-button button:hover {
   background: #d7d7d7;
 }
 
 .tofflor-wrapper {
-  max-width: 1024px;
+  max-width: 1000px;
   margin: auto;
   width: 100%;
 }
@@ -515,6 +516,7 @@ main {
   border-radius: unset;
   outline: none;
   transition: 0.2s ease-in-out;
+  cursor: pointer;
 }
 .tofflor-wrapper .tofflor-button button:hover {
   background: #d7d7d7;
