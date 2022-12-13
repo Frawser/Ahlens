@@ -178,6 +178,7 @@ main {
 
 .jul-wrapper {
   margin: 30px;
+  position: relative;
 }
 .jul-wrapper .row-card {
   display: flex;
@@ -191,6 +192,43 @@ main {
   flex-basis: 100%;
   flex: 1;
   margin: 10px;
+  position: relative;
+}
+.jul-wrapper .jul-card .btn-top-left {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 40px;
+  border-radius: 0%;
+  font-family: "Apercu", Arial, sans-serif;
+  letter-spacing: 0.7px;
+}
+.jul-wrapper .jul-card .btn-top-right {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 40px;
+  border-radius: 0%;
+  font-family: "Apercu", Arial, sans-serif;
+  letter-spacing: 0.7px;
+}
+.jul-wrapper .jul-card .btn-bot-left {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 40px;
+  border-radius: 0%;
+  font-family: "Apercu", Arial, sans-serif;
+  letter-spacing: 0.7px;
 }
 .jul-wrapper .jul-card a img {
   width: 486px;
