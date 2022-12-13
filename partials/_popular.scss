@@ -1,0 +1,30 @@
+.popular{
+    display: flex;
+    
+    
+   .popular-lists{
+    display: flex;
+ 
+   }
+    ul{
+        padding: 20px;
+    
+        li{
+            font-size: .9rem;
+            margin: 10px;
+            a{
+                text-decoration: underline;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.pop-title::before{
+    
+}
+
+.pop-title{
+       font-size: 1.5rem;
+       font-weight: 300;
+    }
