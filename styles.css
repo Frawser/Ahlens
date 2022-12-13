@@ -300,26 +300,45 @@ main {
   height: 242px;
 }
 
-.popular {
+.popular-wrapper {
+  max-width: 1000px;
+  margin: auto;
+  width: 100%;
+}
+.popular-wrapper .pop-title {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: 6rem;
+  text-align: center;
+}
+.popular-wrapper .pop-title h1 {
+  z-index: 1;
+  padding: 0 1rem;
+  color: rgb(43, 43, 43);
+  background: white;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.popular-wrapper .pop-title::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #e1e1e1;
+}
+.popular-wrapper .popular-lists {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
-.popular .pop-title {
-  font-size: 1.5rem;
-  font-weight: 300;
-}
-.popular .popular-lists {
-  display: flex;
-}
-.popular ul {
+.popular-wrapper ul {
   padding: 20px;
 }
-.popular ul li {
+.popular-wrapper ul li {
   font-size: 0.9rem;
   margin: 10px;
 }
-.popular ul li a {
+.popular-wrapper ul li a {
   text-decoration: underline;
   font-weight: 400;
 }
