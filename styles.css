@@ -161,7 +161,7 @@ main {
   left: 0;
   bottom: 0;
   width: 100%;
-  padding: 0.7rem 0 2rem 0;
+  padding: 0.8rem 0 2rem 0;
 }
 .footer section {
   padding: 16px;
@@ -296,6 +296,12 @@ main {
 
 .popular {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popular .pop-title {
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 .popular .popular-lists {
   display: flex;
@@ -310,9 +316,4 @@ main {
 .popular ul li a {
   text-decoration: underline;
   font-weight: 400;
-}
-
-.pop-title {
-  font-size: 1.5rem;
-  font-weight: 300;
 }/*# sourceMappingURL=styles.css.map */
