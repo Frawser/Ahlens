@@ -285,4 +285,74 @@ main {
 .jul-wrapper .jul-card a img {
   width: 486px;
   height: 242px;
+}
+
+.wrapper-instatitle h3 {
+  font-size: 20px;
+}
+
+.wrapper-instatitle {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.wrapper-insta {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+}
+
+.instarow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.instacard {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.instacard a img {
+  width: 320px;
+  height: 320px;
+  margin: 5px;
+  margin-bottom: 2px;
+}
+
+.instacard-text {
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.instacard-text2 {
+  font-size: 15px;
+}
+
+.instacard-text i {
+  font-size: 35px;
+}
+
+.instacard-dark {
+  width: 320px;
+  height: 320px;
+  background: rgba(0, 0, 0, 0.75);
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s, visibility 0.1s;
+}
+
+.instacard:hover .instacard-text, .instacard:hover .instacard-dark {
+  visibility: visible;
+  opacity: 1;
 }/*# sourceMappingURL=styles.css.map */
