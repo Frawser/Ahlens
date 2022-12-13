@@ -285,4 +285,33 @@ main {
 .jul-wrapper .jul-card a img {
   width: 486px;
   height: 242px;
+}
+
+.gillar-wrapper {
+  margin: 35px;
+  width: 1012px;
+  display: flex;
+  flex-direction: column;
+}
+.gillar-wrapper p {
+  font-family: "Apercu", Arial, sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  color: #000000;
+  margin-left: 10 px;
+  padding: 0;
+}
+.gillar-wrapper .gillar-produkt-container {
+  display: block;
+  float: left;
+}
+.gillar-wrapper .gillar-produkt-container div {
+  display: block;
+  float: left;
+  width: 148px;
+  margin: 0 10.3px;
+}
+.gillar-wrapper .gillar-produkt-container div a img {
+  width: 148px;
 }/*# sourceMappingURL=styles.css.map */
