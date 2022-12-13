@@ -52,6 +52,11 @@
 
                     i {
                         color: gray;
+                        transition: 0.3s ease-in;
+
+                        &:hover {
+                            color: #df1b12;
+                        }
                     }
                 }
 

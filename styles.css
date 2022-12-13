@@ -35,6 +35,7 @@ header .nav-bar .nav-list .nav-items {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  transition: 0.05s ease-in;
 }
 header .nav-bar .nav-list .nav-items i {
   font-size: 1.5rem;
@@ -43,6 +44,9 @@ header .nav-bar .nav-list .nav-items a {
   font-size: 0.75rem;
   letter-spacing: 0.5px;
   font-family: "Apercu", sans-serif;
+}
+header .nav-bar .nav-list .nav-items:hover {
+  opacity: 0.5;
 }
 header .nav-categories {
   display: flex;
@@ -342,6 +346,10 @@ main {
 }
 .toplista-wrapper .toplista-grid .toplista-card .toplista-image .toplista-icon i {
   color: gray;
+  transition: 0.3s ease-in;
+}
+.toplista-wrapper .toplista-grid .toplista-card .toplista-image .toplista-icon i:hover {
+  color: #df1b12;
 }
 .toplista-wrapper .toplista-grid .toplista-card .toplista-image img {
   width: 100%;
@@ -455,6 +463,10 @@ main {
 }
 .tofflor-wrapper .tofflor-grid .tofflor-card .tofflor-image .tofflor-icon i {
   color: gray;
+  transition: 0.3s ease-in;
+}
+.tofflor-wrapper .tofflor-grid .tofflor-card .tofflor-image .tofflor-icon i:hover {
+  color: #df1b12;
 }
 .tofflor-wrapper .tofflor-grid .tofflor-card .tofflor-image img {
   width: 100%;
