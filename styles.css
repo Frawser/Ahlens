@@ -351,4 +351,11 @@ main {
   margin: 0;
   padding: 0;
   text-decoration: line-through;
+}
+
+.img-container1 {
+  width: 992px;
+}
+.img-container1 img {
+  width: 992px;
 }/*# sourceMappingURL=styles.css.map */
