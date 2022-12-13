@@ -294,8 +294,8 @@ main {
   flex-direction: column;
 }
 .gillar-wrapper p {
-  font-family: "Apercu", Arial, sans-serif;
-  font-size: 23px;
+  font-family: "Times New Roman", Times, serif, Arial, sans-serif;
+  font-size: 28px;
   font-weight: 400;
   letter-spacing: 0.7px;
   color: #000000;
@@ -314,4 +314,41 @@ main {
 }
 .gillar-wrapper .gillar-produkt-container div a img {
   width: 148px;
+}
+.gillar-wrapper .gillar-produkt-container div p {
+  font-family: "Apercu", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+.gillar-wrapper .gillar-produkt-container div span {
+  font-family: "Apercu", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+.gillar-wrapper .gillar-produkt-container div .new-price {
+  font-family: "Apercu", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  color: #ff0000;
+  margin: 0;
+  padding: 0;
+}
+.gillar-wrapper .gillar-produkt-container div .old-price {
+  font-family: "Apercu", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  color: #a1a1a1;
+  margin: 0;
+  padding: 0;
+  text-decoration: line-through;
 }/*# sourceMappingURL=styles.css.map */
