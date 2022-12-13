@@ -358,4 +358,8 @@ main {
 }
 .img-container1 img {
   width: 992px;
+}
+
+.gillar:hover {
+  background-color: #a1a1a1;
 }/*# sourceMappingURL=styles.css.map */
