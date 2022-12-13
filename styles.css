@@ -35,6 +35,7 @@ header .nav-bar .nav-list .nav-items {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  transition: 0.05s ease-in;
 }
 header .nav-bar .nav-list .nav-items i {
   font-size: 1.5rem;
@@ -43,6 +44,9 @@ header .nav-bar .nav-list .nav-items a {
   font-size: 0.75rem;
   letter-spacing: 0.5px;
   font-family: "Apercu", sans-serif;
+}
+header .nav-bar .nav-list .nav-items:hover {
+  opacity: 0.5;
 }
 header .nav-categories {
   display: flex;
@@ -117,7 +121,9 @@ a {
   text-decoration: none;
 }
 
-input {
+button,
+input,
+select {
   font-family: inherit;
 }
 
@@ -355,4 +361,310 @@ main {
 .instacard:hover .instacard-text, .instacard:hover .instacard-dark {
   visibility: visible;
   opacity: 1;
+}
+
+.toplista-wrapper {
+  max-width: 1000px;
+  margin: auto;
+  width: 100%;
+}
+.toplista-wrapper .toplista-title {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: 6rem;
+  text-align: center;
+}
+.toplista-wrapper .toplista-title h1 {
+  z-index: 1;
+  padding: 0 1rem;
+  color: rgb(43, 43, 43);
+  background: white;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.toplista-wrapper .toplista-title::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #e1e1e1;
+}
+.toplista-wrapper .toplista-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.5rem;
+  margin: 1.5rem 0 0 0;
+}
+.toplista-wrapper .toplista-grid .toplista-card {
+  position: relative;
+  transition: 0.4s ease-out;
+}
+.toplista-wrapper .toplista-grid .toplista-card .toplista-image {
+  position: relative;
+  width: 100%;
+  height: 242px;
+}
+.toplista-wrapper .toplista-grid .toplista-card .toplista-image .toplista-icon {
+  position: absolute;
+  font-size: 1.5rem;
+  padding: 2px 6px;
+  background: white;
+  border-radius: 50%;
+  top: 5px;
+  right: 5px;
+}
+.toplista-wrapper .toplista-grid .toplista-card .toplista-image .toplista-icon i {
+  color: gray;
+  transition: 0.3s ease-in;
+}
+.toplista-wrapper .toplista-grid .toplista-card .toplista-image .toplista-icon i:hover {
+  color: #df1b12;
+}
+.toplista-wrapper .toplista-grid .toplista-card .toplista-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.toplista-wrapper .toplista-grid .toplista-card .toplista-description {
+  display: flex;
+  flex-direction: column;
+  gap: 7.5px;
+  padding: 8px 8px 24px 4px;
+}
+.toplista-wrapper .toplista-grid .toplista-card .toplista-description .product-title {
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.toplista-wrapper .toplista-grid .toplista-card .toplista-description .product-description {
+  font-size: 0.9rem;
+  letter-spacing: 0.2px;
+  font-weight: 300;
+}
+.toplista-wrapper .toplista-grid .toplista-card .toplista-description .product-pricings span:first-of-type {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #df1b12;
+}
+.toplista-wrapper .toplista-grid .toplista-card .toplista-description .product-pricings span:last-of-type {
+  font-size: 0.8rem;
+  margin-bottom: 0.22px;
+  color: gray;
+  text-decoration: line-through;
+}
+.toplista-wrapper .toplista-grid .toplista-card:hover {
+  filter: brightness(0.9);
+  background: white;
+}
+.toplista-wrapper .toplista-button {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  margin: 0 0 3rem 0;
+  margin: 1rem 0 3rem 0;
+}
+.toplista-wrapper .toplista-button button {
+  padding: 1em 5.5em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: 1px solid #d7d7d7;
+  background: white;
+  border-radius: unset;
+  outline: none;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.toplista-wrapper .toplista-button button:hover {
+  background: #d7d7d7;
+}
+
+.tofflor-wrapper {
+  max-width: 1000px;
+  margin: auto;
+  width: 100%;
+}
+.tofflor-wrapper .tofflor-title {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: 6rem;
+  text-align: center;
+}
+.tofflor-wrapper .tofflor-title h1 {
+  z-index: 1;
+  padding: 0 1rem;
+  color: rgb(43, 43, 43);
+  background: white;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.tofflor-wrapper .tofflor-title::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #e1e1e1;
+}
+.tofflor-wrapper .tofflor-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.5rem;
+  margin: 1.5rem 0 0 0;
+}
+.tofflor-wrapper .tofflor-grid .tofflor-card {
+  position: relative;
+  transition: 0.4s ease-out;
+}
+.tofflor-wrapper .tofflor-grid .tofflor-card .tofflor-image {
+  position: relative;
+  width: 100%;
+  height: 242px;
+}
+.tofflor-wrapper .tofflor-grid .tofflor-card .tofflor-image .tofflor-icon {
+  position: absolute;
+  font-size: 1.5rem;
+  padding: 2px 6px;
+  background: white;
+  border-radius: 50%;
+  top: 5px;
+  right: 5px;
+}
+.tofflor-wrapper .tofflor-grid .tofflor-card .tofflor-image .tofflor-icon i {
+  color: gray;
+  transition: 0.3s ease-in;
+}
+.tofflor-wrapper .tofflor-grid .tofflor-card .tofflor-image .tofflor-icon i:hover {
+  color: #df1b12;
+}
+.tofflor-wrapper .tofflor-grid .tofflor-card .tofflor-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.tofflor-wrapper .tofflor-grid .tofflor-card .tofflor-description {
+  display: flex;
+  flex-direction: column;
+  gap: 7.5px;
+  padding: 8px 8px 24px 4px;
+}
+.tofflor-wrapper .tofflor-grid .tofflor-card .tofflor-description .product-title {
+  font-size: 1rem;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.tofflor-wrapper .tofflor-grid .tofflor-card .tofflor-description .product-description {
+  font-size: 0.9rem;
+  letter-spacing: 0.2px;
+  font-weight: 300;
+}
+.tofflor-wrapper .tofflor-grid .tofflor-card .tofflor-description .product-pricings span:first-of-type {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.tofflor-wrapper .tofflor-grid .tofflor-card:hover {
+  filter: brightness(0.9);
+  background: white;
+}
+.tofflor-wrapper .tofflor-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0 3rem 0;
+}
+.tofflor-wrapper .tofflor-button button {
+  padding: 1em 5.5em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: 1px solid #d7d7d7;
+  background: white;
+  border-radius: unset;
+  outline: none;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.tofflor-wrapper .tofflor-button button:hover {
+  background: #d7d7d7;
+}
+
+.gillar-wrapper {
+  margin: 35px;
+  width: 1012px;
+  display: flex;
+  flex-direction: column;
+}
+.gillar-wrapper p {
+  font-family: "Times New Roman", Times, serif, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 0.7px;
+  color: #000000;
+  margin-left: 10 px;
+  padding: 0;
+}
+.gillar-wrapper .gillar-produkt-container {
+  display: block;
+  float: left;
+}
+.gillar-wrapper .gillar-produkt-container div {
+  display: block;
+  float: left;
+  width: 148px;
+  margin: 0 10.3px;
+}
+.gillar-wrapper .gillar-produkt-container div:hover {
+  filter: brightness(0.9);
+  background: white;
+}
+.gillar-wrapper .gillar-produkt-container div a img {
+  width: 148px;
+}
+.gillar-wrapper .gillar-produkt-container div p {
+  font-family: "Apercu", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+.gillar-wrapper .gillar-produkt-container div span {
+  font-family: "Apercu", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+.gillar-wrapper .gillar-produkt-container div .new-price {
+  font-family: "Apercu", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  color: #ff0000;
+  margin: 0;
+  padding: 0;
+}
+.gillar-wrapper .gillar-produkt-container div .old-price {
+  font-family: "Apercu", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  color: #a1a1a1;
+  margin: 0;
+  padding: 0;
+  text-decoration: line-through;
+}
+
+.img-container1 {
+  width: 992px;
+}
+.img-container1 img {
+  width: 992px;
 }/*# sourceMappingURL=styles.css.map */

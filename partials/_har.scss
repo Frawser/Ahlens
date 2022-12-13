@@ -1,16 +1,14 @@
 .har-wrapper {
     display: flex;
     flex-direction: row;
-    
+
     .har-card {
-       
         a {
             img {
                 width: 992px;
                 height: 351px;
             }
         }
-
     }
 }
 
@@ -22,7 +20,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
-       
     }
     .jul-card {
         display: flex;
@@ -32,7 +29,7 @@
         margin: 10px;
         position: relative;
 
-        .btn-top-left{
+        .btn-top-left {
             position: absolute;
             z-index: 1;
             left: 50%;
@@ -82,7 +79,3 @@
         }
     }
 }
-
-
-
-
