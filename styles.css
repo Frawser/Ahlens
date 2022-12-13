@@ -312,6 +312,10 @@ main {
   width: 148px;
   margin: 0 10.3px;
 }
+.gillar-wrapper .gillar-produkt-container div:hover {
+  filter: brightness(0.9);
+  background: white;
+}
 .gillar-wrapper .gillar-produkt-container div a img {
   width: 148px;
 }
@@ -358,8 +362,4 @@ main {
 }
 .img-container1 img {
   width: 992px;
-}
-
-.gillar:hover {
-  background-color: #a1a1a1;
 }/*# sourceMappingURL=styles.css.map */

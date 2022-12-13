@@ -22,6 +22,12 @@
             float: left;
             width: 148px;
             margin: 0 10.3px;
+            &:hover {
+                filter: brightness(0.9);
+                background: white;
+                 
+            }
+            
             a {
                 img {
                     width: 148px;
@@ -84,7 +90,3 @@
 }
 
 
-.gillar:hover {
-    background-color: #a1a1a1;
-     
-}
