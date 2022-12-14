@@ -43,6 +43,8 @@
 
                 .tofflor-icon {
                     position: absolute;
+                    display: grid;
+                    place-items: center;
                     font-size: 1.5rem;
                     padding: 2px 6px;
                     background: white;
