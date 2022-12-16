@@ -1,0 +1,22 @@
+.inredning-wrapper {
+    max-width: 1000px;
+    margin: auto;
+
+    .inredning {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 1.5rem 0 2rem 0;
+    }
+
+    .inredning-banner {
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+}
