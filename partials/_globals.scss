@@ -40,6 +40,11 @@ main {
     width: 100%;
 }
 
+.nav-active {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
 .wrapper1 {
     //wrapper som fungerar till Julluckorna och kanske resten
     display: flex;
