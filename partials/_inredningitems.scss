@@ -1,0 +1,126 @@
+.inredning-items-wrapper {
+    max-width: 1000px;
+    margin: auto;
+    width: 100%;
+
+    .inredning-items-title {
+        position: relative;
+        display: grid;
+        place-items: center;
+        height: 6rem;
+        text-align: center;
+
+        h1 {
+            z-index: 1;
+            padding: 0 1rem;
+            color: rgb(43, 43, 43);
+            background: white;
+            font-size: 1.6rem;
+            font-weight: 400;
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background: #e1e1e1;
+        }
+    }
+
+    .inredning-items-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 1.15rem;
+        margin: 1.5rem 0 1rem 0;
+
+        .inredning-items-card {
+            position: relative;
+            transition: 0.4s ease-out;
+            cursor: pointer;
+
+            .inredning-items-image {
+                position: relative;
+                width: 100%;
+                height: 242px;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+
+                    overflow: hidden;
+                    transition: 0.3s ease;
+                }
+            }
+
+            &:hover {
+                .inredning-items-image {
+                    img {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+            .inredning-items-description {
+                display: flex;
+                flex-direction: column;
+                gap: 7.5px;
+                padding: 8px 8px 24px 4px;
+                letter-spacing: 0.75px;
+
+                .product-title {
+                    font-size: 0.9rem;
+                    letter-spacing: 0.2px;
+                    font-weight: 600;
+                }
+
+                .product-description {
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    font-size: 0.85rem;
+                    letter-spacing: 0.2px;
+                    font-weight: 300;
+                }
+
+                .product-pricings {
+                    font-size: 0.8rem;
+                    .text-bold {
+                        font-weight: 600;
+                    }
+
+                    .text-red {
+                        color: #df1b12;
+                    }
+
+                    .text-gray {
+                        color: gray;
+                    }
+                }
+            }
+        }
+    }
+    .inredning-items-button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin: 1rem 0 3rem 0;
+
+        button {
+            padding: 1em 5.5em;
+            font-weight: 600;
+            letter-spacing: 1px;
+            border: 1px solid #d7d7d7;
+            background: white;
+            border-radius: unset;
+            outline: none;
+            transition: 0.2s ease-in-out;
+            cursor: pointer;
+
+            &:hover {
+                background: #d7d7d7;
+            }
+        }
+    }
+}

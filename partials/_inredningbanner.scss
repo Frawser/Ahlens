@@ -2,7 +2,7 @@
     max-width: 1000px;
     margin: auto;
 
-    .inredning {
+    .inredning-link {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -22,6 +22,7 @@
 
     .inredning-banner {
         width: 100%;
+        cursor: pointer;
 
         img {
             width: 100%;
