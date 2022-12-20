@@ -10,10 +10,16 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .filter-li{
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 33px;
+}
+.filter-link{
     background: #5e1220;
-    margin: 10px;
     color: white;
     font-size: 12px;
     padding: 11px;
