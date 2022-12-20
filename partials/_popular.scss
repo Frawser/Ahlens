@@ -42,19 +42,20 @@
       }
     }
   }
+  .popular-lists2{
+    display: flex;
+      justify-content: center;
+      ul{
+        padding: 1px;
+        li{
+          font-size: .9rem;
+          text-align: center;
+        }
+      }
+     
+  }
 }
 
-// .popular-cards-wrapper{
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: center;
-//     width: 100%;
-//     position: relative;
-//     flex: 1;
-//     .popular-cards{
-//         margin: 0 5px 0 5px;
-//     }
-// }
 
 .pop-card-wrapper {
 
